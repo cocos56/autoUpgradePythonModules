@@ -1,0 +1,9 @@
+opencv-python
+django
+numpy
+Pillow
+PyInstaller
+pylint
+scapy
+websocket_server
+websocket_client
