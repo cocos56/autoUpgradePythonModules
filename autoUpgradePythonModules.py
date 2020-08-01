@@ -27,7 +27,7 @@ if updatelist :
     for x in updatelist:
         print('\n', c, '/', total, ' upgrading ', x, sep='')
         c += 1
-        tempcmd = "pip install  --upgrade " + x + '-i https://pypi.tuna.tsinghua.edu.cn/simple'
+        tempcmd = "pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade " + x
         os.system(tempcmd)
     print("所有模块都已更新完毕！！")
     print('All modules have been updated.')
