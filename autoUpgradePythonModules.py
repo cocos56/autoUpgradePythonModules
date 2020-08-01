@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-command = "pip list --outdated"
+command = "pip list --outdated -i https://pypi.tuna.tsinghua.edu.cn/simple"
 
 print('正在获取需要升级的模块信息，请稍后...')
 print('Getting the information of outdated modules, wait a moment...')
@@ -27,7 +27,7 @@ if updatelist :
     for x in updatelist:
         print('\n', c, '/', total, ' upgrading ', x, sep='')
         c += 1
-        tempcmd = "pip install  --upgrade " + x
+        tempcmd = "pip install  --upgrade " + x + '-i https://pypi.tuna.tsinghua.edu.cn/simple'
         os.system(tempcmd)
     print("所有模块都已更新完毕！！")
     print('All modules have been updated.')
