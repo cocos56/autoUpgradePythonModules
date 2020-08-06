@@ -2,7 +2,6 @@ opencv-python
 django
 numpy
 Pillow
-PyInstaller
 pylint
 scapy
 websocket_server
@@ -12,3 +11,4 @@ keyboard
 comtypes
 requests
 pycaw
+PyInstaller
