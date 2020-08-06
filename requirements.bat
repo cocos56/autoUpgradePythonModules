@@ -4,6 +4,6 @@ cd /d "%~dp0"
 
 python -m pip install --upgrade pip
 
-pip install -i https://pypi.doubanio.com/simple/ -r requirements.txt
+pip install -i https://pypi.douban.com/simple/ -r requirements.txt
 
 pause

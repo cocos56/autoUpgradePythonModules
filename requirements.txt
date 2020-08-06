@@ -7,3 +7,8 @@ pylint
 scapy
 websocket_server
 websocket_client
+pynput
+keyboard
+comtypes
+requests
+pycaw
