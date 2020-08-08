@@ -10,3 +10,6 @@ Pillow
 pylint
 websocket_server
 websocket_client
+aliyun-python-sdk-alidns
+pymysql
+moviepy
