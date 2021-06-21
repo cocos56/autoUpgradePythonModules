@@ -15,3 +15,5 @@ pymysql
 moviepy
 pymediainfo
 cryptography
+wheel
+twine
