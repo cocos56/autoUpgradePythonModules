@@ -17,3 +17,4 @@ pymediainfo
 cryptography
 wheel
 twine
+pacc
